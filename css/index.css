@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f4571;
+}
+header{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+header img{
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+}
+header h3{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+header p{
+    color: white;
+    font-size: 15px;
+}
+header i{
+    color: white;
+    margin: 30px;
+    font-size: 100px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.left{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: white;
+    color: black;
+}
+.left h2{
+    margin: 10px;
+    letter-spacing: 1.5px;
+}
+.left p{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+}
+.left a{
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+.left a:hover{
+    text-decoration: underline;
+}
+.right{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #3c6382;
+    color: white;
+
+}
+.right div{
+    width: 100%;
+    padding: 8px 16px;
+}
+.right h2{
+    margin: 5px;
+    letter-spacing: 1.5px;
+}
+.right div progress[value]{
+    width: 100%;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.top{
+    flex-basis: 50%;
+    /* border: 1px solid rgb(129, 27, 27); */
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #3c6382;
+    color: white;
+
+}
+.top h2{
+    margin: 10px;
+    letter-spacing: 1.5px;
+
+}
+.top p{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+
+}
+.bottom{
+    flex-basis: 50%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: white;
+    color: black;
+    
+}
+.bottom h2{
+    margin: 10px;
+    letter-spacing: 1.5px;
+}
+.bottom ul{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+
+}
+.bottom ul li{
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+footer .foot{
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+
+}
